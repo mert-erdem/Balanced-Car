@@ -1,7 +1,70 @@
 fileFormatVersion: 2
 guid: 13bf0dbdb13041c4a9d33b71ea73f8ad
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 3633323121329922960
+    second: Gas_bar_0
+  - first:
+      213: -2011601351006458549
+    second: Gas_bar_1
+  - first:
+      213: 958860270955118060
+    second: Gas_bar_2
+  - first:
+      213: 2486680941891134701
+    second: Gas_bar_3
+  - first:
+      213: -8598382833095545790
+    second: Gas_bar_4
+  - first:
+      213: -7243643688156601344
+    second: Gas_bar_5
+  - first:
+      213: 1452445808934152454
+    second: Gas_bar_6
+  - first:
+      213: -1103034706166079356
+    second: Gas_bar_7
+  - first:
+      213: 3389367573126006137
+    second: Gas_bar_8
+  - first:
+      213: 7472491837368614301
+    second: Gas_bar_9
+  - first:
+      213: 9035707164793455483
+    second: Gas_bar_10
+  - first:
+      213: -8928166810096742710
+    second: Gas_bar_11
+  - first:
+      213: -10451454958017358
+    second: Gas_bar_12
+  - first:
+      213: -7233866452968367152
+    second: Gas_bar_13
+  - first:
+      213: 1620135842540795095
+    second: Gas_bar_14
+  - first:
+      213: -4362213970668123619
+    second: Gas_bar_15
+  - first:
+      213: -3716451424908405686
+    second: Gas_bar_16
+  - first:
+      213: -123585403370820841
+    second: Gas_bar_17
+  - first:
+      213: 9008927949019346114
+    second: Gas_bar_18
+  - first:
+      213: -7216873277440199849
+    second: Gas_bar_19
+  - first:
+      213: 8348935712576002658
+    second: Gas_bar_20
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +104,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -75,9 +138,474 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Gas_bar_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 580
+        width: 88
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0936511f0282c6230800000000000000
+      internalID: 3633323121329922960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_bar_1
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 580
+        width: 88
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d609baa3b5514e0800000000000000
+      internalID: -2011601351006458549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_bar_2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 580
+        width: 88
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cedb38f065e8e4d00800000000000000
+      internalID: 958860270955118060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_bar_3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 580
+        width: 88
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4a7234427728220800000000000000
+      internalID: 2486680941891134701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_bar_4
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 580
+        width: 88
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ce5869e586ca880800000000000000
+      internalID: -8598382833095545790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_bar_5
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 452
+        width: 88
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 004ecefa178697b90800000000000000
+      internalID: -7243643688156601344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_bar_6
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 452
+        width: 88
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 609660194cf182410800000000000000
+      internalID: 1452445808934152454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_bar_7
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 452
+        width: 88
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4802b0467cb31b0f0800000000000000
+      internalID: -1103034706166079356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_bar_8
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 452
+        width: 88
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9754761a9d3790f20800000000000000
+      internalID: 3389367573126006137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_bar_9
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 452
+        width: 88
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9dbc513cbf93b760800000000000000
+      internalID: 7472491837368614301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_bar_10
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 324
+        width: 88
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7347fb0bc7456d70800000000000000
+      internalID: 9035707164793455483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_bar_11
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 324
+        width: 88
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace40c4f697c81480800000000000000
+      internalID: -8928166810096742710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_bar_12
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 324
+        width: 88
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b467d3057edadff0800000000000000
+      internalID: -10451454958017358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_bar_13
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 324
+        width: 88
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db9436a9c42c9b90800000000000000
+      internalID: -7233866452968367152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_bar_14
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 324
+        width: 88
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4b58607f0eb7610800000000000000
+      internalID: 1620135842540795095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_bar_15
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 196
+        width: 88
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a8414718d4673c0800000000000000
+      internalID: -4362213970668123619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_bar_16
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 196
+        width: 88
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a441751ae138c6cc0800000000000000
+      internalID: -3716451424908405686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_bar_17
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 196
+        width: 88
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ba8acfabfe84ef0800000000000000
+      internalID: -123585403370820841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_bar_18
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 196
+        width: 88
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4f2600d34260d70800000000000000
+      internalID: 9008927949019346114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_bar_19
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 196
+        width: 88
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753fa25adf388db90800000000000000
+      internalID: -7216873277440199849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gas_bar_20
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 68
+        width: 88
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a5aa8cbc06dd370800000000000000
+      internalID: 8348935712576002658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
