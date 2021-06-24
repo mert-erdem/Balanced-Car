@@ -1,19 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class CarController : MonoBehaviour
 {
     Rigidbody2D physics;
-    [SerializeField] private WheelJoint2D _wheelBack, _wheelFront;
-    [Range(0, 5000)] public int _speed;
-    private float _horizontalMovement;
 
-    public static float fuel=100;
+    [SerializeField] private WheelJoint2D _wheelBack, _wheelFront;
+    [Range(0, 5000)] public int speed;
+
+    private float _horizontalMovement;
+    public static float fuel=100; 
+    private bool gameOver=false;
+
+    private void Awake() => Driver.actionGameOver += GameOver;
 
     void Start()
-    {
+    {        
         physics = transform.GetComponent<Rigidbody2D>();
 
         _wheelFront.useMotor = false;
@@ -21,17 +23,20 @@ public class CarController : MonoBehaviour
 
     void Update()
     {
-        _horizontalMovement = -Input.GetAxisRaw("Horizontal")*_speed;
+        if(!gameOver)
+        {
+            _horizontalMovement = -Input.GetAxisRaw("Horizontal") * speed;
 
-        if (Input.GetKey(KeyCode.Space))
-            StopTheCar();
+            if (Input.GetKey(KeyCode.Space))
+                HandBreak();
+        }       
     }
 
     private void FixedUpdate() => Movement();
 
     private void Movement()
     {
-        if (_horizontalMovement == 0 || fuel<=0)
+        if (_horizontalMovement == 0 || fuel<=0 || gameOver)
             _wheelBack.useMotor = false;       
         else
         {
@@ -44,10 +49,7 @@ public class CarController : MonoBehaviour
         }
     }
 
-    private void StopTheCar()
-    {
-        physics.velocity = Vector2.zero;
-    }
+    private void HandBreak() => physics.velocity = Vector2.zero;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -57,4 +59,6 @@ public class CarController : MonoBehaviour
             Destroy(collision.gameObject);
         }                  
     }
+
+    private void GameOver() => gameOver = true;
 }
